@@ -6,4 +6,4 @@ function verificarNome(nome1, nome2){
 
 const mesmoNome = verificarNome("Fulano", "Fulano");
 
-console.log(mesmoNome);
+console.log(mesmoNome ? "Nomes iguais" : "Nomes diferentes");
